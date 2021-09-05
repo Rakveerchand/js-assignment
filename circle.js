@@ -2,9 +2,10 @@
 import { Shape } from "./Shape";
 class Circle extends Shape
 {
+    constructor() { super(); this.radius = 9; }
     calculateArea()
     {
-        console.log("hello");
+        return "hello";
     }
 }
 module.exports = Circle;
