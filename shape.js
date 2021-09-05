@@ -1,13 +1,10 @@
-class Shape{
+export class Shape{
     
-   constructor() { this.color = 'blue'; }
-    drawShape()
-    {
-        return "drowshape";
-    }
-    calculateArea()
-    {
-        return "area of circle";
-    }
+drawShape(){
+    console.log("drawShape");
 }
-module.exports = Shape;
+calculateArea(){
+    console.log("calculate Area");
+}
+color = "red";
+}
