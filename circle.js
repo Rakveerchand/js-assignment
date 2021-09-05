@@ -1,3 +1,4 @@
+
 import { Shape } from "./Shape";
 class Circle extends Shape
 {
@@ -6,3 +7,4 @@ class Circle extends Shape
         console.log("hello");
     }
 }
+module.exports = Circle;
