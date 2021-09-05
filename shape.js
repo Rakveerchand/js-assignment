@@ -6,5 +6,4 @@ drawShape(){
 calculateArea(){
     console.log("calculate Area");
 }
-color = "red";
 }
