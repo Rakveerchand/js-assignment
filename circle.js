@@ -1,11 +1,9 @@
+import { Shape } from "./shape";
 
-import { Shape } from "./Shape";
-class Circle extends Shape
-{
-    constructor() { super(); this.radius = 9; }
-    calculateArea()
-    {
-        return "hello";
-    }
+class Circle extends Shape {
+
+calculateArea(){
+    console.log("calculate area from child class");
 }
-module.exports = Circle;
+
+}
