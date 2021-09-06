@@ -1,9 +1,12 @@
 export class Shape{
+    constructor(color) {
+    this.color = "black";
+  }
     
 drawShape(){
-    console.log("drawShape");
+    return "drawShape";
 }
 calculateArea(){
-    console.log("calculate Area");
+    return "calculate Area";
 }
 }
